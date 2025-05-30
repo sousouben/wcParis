@@ -1,0 +1,23 @@
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      @apply bg-gradient-to-br from-slate-900 to-slate-800 text-slate-50 min-h-screen font-sans;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    #root {
+      @apply min-h-screen flex flex-col;
+    }
+
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+    }
+  
